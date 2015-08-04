@@ -52,11 +52,13 @@ func save_game(index):
 		
 func new_save_game():
 	var score = get_node("/root/score_manager")
+	var level = get_node("/root/level_manager")
+	print("score start ", level.score_on_start)
 	var save = {
 		"saved": true,
-		"level": get_node("/root/level_manager").currentLevel,
+		"level": level.currentLevel,
 		"pad_level": get_tree().get_nodes_in_group("pad")[0].get("pad_level"),
-		"score": score.get_score(),
+		"score": level.score_on_start,
 		"lives": score.get_lives(),
 		"date": OS.get_date(),
 		"time": OS.get_time()
