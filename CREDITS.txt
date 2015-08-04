@@ -1,0 +1,116 @@
+Title:
+    8 bit Title or Theme
+
+Author:
+    ShwiggityShwag
+
+URL:
+    http://opengameart.org/content/8-bit-title-or-theme
+
+License(s):
+    * CC-BY 3.0 ( http://creativecommons.org/licenses/by/3.0/legalcode )
+
+Copyright/Attribution Notice:
+    Just give me credit if it&#039;s not too much trouble :)
+
+File(s):
+    * Loop_1.ogg
+
+----------------------------------------
+
+Title:
+    Retro Space BGM
+
+Author:
+    Monster Logix Studio
+
+URL:
+    http://opengameart.org/content/retro-space-bgm
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * ancientbgm.mp3
+    * introwavybgm.mp3
+
+----------------------------------------
+
+Title:
+    3 Ping Pong Sounds 8 bit style
+
+Author:
+    captaincrunch80
+
+URL:
+    http://opengameart.org/content/3-ping-pong-sounds-8-bit-style
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+File(s):
+    * sounds_ping_pong_8bit.zip
+
+----------------------------------------
+
+Title:
+    Arcade Pack
+
+Author:
+    Buch
+
+URL:
+    http://opengameart.org/content/arcade-pack
+
+License(s):
+    * CC0 ( http://creativecommons.org/publicdomain/zero/1.0/legalcode )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    NOT REQUIRED, though appreciated: credit me as Buch and link either back to my OGA profile page or to http://blog-buch.rhcloud.com
+
+File(s):
+    * arcadArne_sheet.png
+
+----------------------------------------
+
+Title:
+    Ringmodulated voice saying "Yeah"
+
+Author:
+    Arthur
+
+URL:
+    http://opengameart.org/content/ringmodulated-voice-saying-yeah
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+    * GPL 3.0 ( http://www.gnu.org/licenses/gpl-3.0.html )
+    * GPL 2.0 ( http://www.gnu.org/licenses/old-licenses/gpl-2.0.html )
+
+File(s):
+    * yeah_random_ringmodulator_chopped.wav
+
+----------------------------------------
+
+Title:
+    [LPC] Interface Items Contribution by Tempest in the Aether
+
+Author:
+    Tempest in the Aether and Ryzom Core
+
+URL:
+    http://opengameart.org/content/lpc-interface-items-contribution-by-tempest-in-the-aether
+
+License(s):
+    * CC-BY-SA 3.0 ( http://creativecommons.org/licenses/by-sa/3.0/legalcode )
+
+SPECIAL ATTRIBUTION INSTRUCTIONS:
+    Credit Tempest in the Aether and Ryzom Core and post derivative works on opengameart.org
+
+File(s):
+    * Tempest_In_The_Aether_Interface.7z
+    * Tempest_In_The_Aether_Interface.zip
+
+----------------------------------------
+
+

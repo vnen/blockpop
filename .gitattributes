@@ -1,0 +1,9 @@
+*.png	binary
+*.jpg	binary
+*.ttf	binary
+*.scn 	binary
+*.ogg	binary
+*.smp	binary
+
+*.cfg	text eol=lf
+*.gd	text eol=lf
