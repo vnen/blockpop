@@ -51,22 +51,20 @@ func save_game(index):
 		saves[index] = new_save_game()
 		
 func new_save_game():
-	var score = get_node("/root/score_manager")
 	var level = get_node("/root/level_manager")
-	print("score start ", level.score_on_start)
 	var save = {
 		"saved": true,
 		"level": level.currentLevel,
 		"pad_level": get_tree().get_nodes_in_group("pad")[0].get("pad_level"),
 		"score": level.score_on_start,
-		"lives": score.get_lives(),
+		"lives": level.lives_on_start,
 		"date": OS.get_date(),
 		"time": OS.get_time()
 	}
 	return save
 	
 func load_game(index):
-	if(index < 0 or index >= saves.size() ):
+	if(index < 0 or index >= saves.size()):
 		return false
 	var save = saves[index]
 	if(!save["saved"]):
