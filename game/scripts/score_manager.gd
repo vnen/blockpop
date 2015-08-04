@@ -2,6 +2,7 @@
 extends Node
 
 var score
+var lastLevelScore
 var lives 
 var initial_lives = 3
 var ended = false
