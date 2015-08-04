@@ -23,7 +23,7 @@ func _ready():
 	set_process_input(true)
 	
 func _input(event):
-	if(event.is_pressed() and !event.is_echo()):
+	if(OS.is_debug_build() and event.is_pressed() and !event.is_echo()):
 		if(event.is_action("increase_level")):
 			increase_level()
 		elif(event.is_action("decrease_level")):

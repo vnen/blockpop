@@ -21,7 +21,7 @@ func _input(event):
 	if(!get_tree().is_paused() and event.is_action("pause") and event.is_pressed() and !event.is_echo()):
 		get_node("GUI/PauseMenu").popup()
 		
-	if(event.is_action("skip_level") and event.is_pressed() and !event.is_echo()):
+	if(OS.is_debug_build() and event.is_action("skip_level") and event.is_pressed() and !event.is_echo()):
 		for brick in get_tree().get_nodes_in_group("brick"):
 			brick.destroy()
 		get_node("ball").call_deferred("on_destroy_brick")
