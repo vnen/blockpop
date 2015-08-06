@@ -3,6 +3,8 @@ extends ScrollContainer
 
 export(int) var scroll_amount = 60
 
+var label_font = preload("res://fonts/tm.fnt")
+
 func _ready():
 	var scores = get_node("/root/score_manager").get_high_scores()
 	var scores_node = get_node("scores")
@@ -12,6 +14,7 @@ func _ready():
 		label.set_align(label.ALIGN_CENTER)
 		label.set_v_size_flags(label.SIZE_FILL)
 		label.set_h_size_flags(label.SIZE_EXPAND)
+		label.add_font_override("font", label_font)
 		scores_node.add_child(label)
 	scores_node.queue_sort()
 	
