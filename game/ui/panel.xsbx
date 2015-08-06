@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="StyleBoxTexture" subresource_count="2" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
+	<ext_resource path="res://ui/panel.png" type="Texture"></ext_resource>
+	<main_resource>
+		<real name="content_margin/left"> -1 </real>
+		<real name="content_margin/right"> -1 </real>
+		<real name="content_margin/top"> -1 </real>
+		<real name="content_margin/bottom"> -1 </real>
+		<resource name="texture" resource_type="Texture" path="res://ui/panel.png">  </resource>
+		<real name="margin/left"> 0 </real>
+		<real name="margin/right"> 0 </real>
+		<real name="margin/top"> 0 </real>
+		<real name="margin/bottom"> 0 </real>
+		<real name="expand_margin/left"> 0 </real>
+		<real name="expand_margin/right"> 0 </real>
+		<real name="expand_margin/top"> 0 </real>
+		<real name="expand_margin/bottom"> 0 </real>
+		<bool name="draw_center"> True </bool>
+
+	</main_resource>
+</resource_file>
