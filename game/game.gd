@@ -12,6 +12,7 @@ func _ready():
 	var right_wall = get_node("walls/right")
 	var left_limit = left_wall.get_pos().x + 20#left_wall.get_shape(0).get_extents().x
 	var right_limit = right_wall.get_pos().x - 20#right_wall.get_shape(0).get_extents().x
+	print("has ", get_node("pad").has_method("set_limits"))
 	get_node("pad").set_limits(left_limit, right_limit)
 	get_node("/root/level_manager").advance()
 	set_process_input(true)
