@@ -24,10 +24,10 @@ func on_cancel_click():
 	queue_free()
 	
 func on_save_click():
-	var name = get_node("name_field/text").get_text()
+	var name = get_node("name_field/text").get_text().strip_edges()
 	if(name):
 		get_node("/root/score_manager").add_high_score(name)
-	on_cancel_click()
+		on_cancel_click()
 	
 
 

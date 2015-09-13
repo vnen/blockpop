@@ -13,7 +13,7 @@ var right_limit = 8000
 var sprite_y
 
 func _ready():
-	set_fixed_process(true)
+	set_process(true)
 	for sprite in get_node("sprites").get_children():
 		sprite.set_modulate(pad_color)
 	for sprite in get_node("base/middle").get_children():
@@ -29,7 +29,7 @@ func _input(event):
 		elif(event.is_action("decrease_level")):
 			decrease_level()
 	
-func _fixed_process(delta):
+func _process(delta):
 	var move_left = Input.is_action_pressed("move_left")
 	var move_right = Input.is_action_pressed("move_right")
 	var pos = get_pos()

@@ -14,7 +14,7 @@ func bgm(resource):
 	if(resource != current_playing and resource extends AudioStream):
 		var player = get_node("bgm_player")
 		player.set_stream(resource)
-		player.play()
+		player.play(0)
 		current_playing = resource
 		
 func update_settings():
