@@ -2,6 +2,8 @@
 
 A simple Breakout clone made with the [Godot Engine](http://www.godotengine.org).
 
+**Note**: This project was made with Godot 1.1, when I was first learning Godot. It's probably not a good idea to use this as a reference. This project won't work with newer Godot releases.
+
 ## Running
 
 If you have the [Godot Engine](http://www.godotengine.org), just download the repo and run the project inside the `game` folder with it.
